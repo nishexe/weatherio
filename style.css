@@ -23,6 +23,15 @@ body{
     margin: 1em;
     opacity: 90%;
 }
+.description{
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+
+}
 .search{
     display: flex;
     align-items: center;
@@ -48,8 +57,7 @@ input.search-bar{
     color: white;
     font-family: inherit;
     font-size: 100%;
-    width: calc(100% - 90px);
-    
+    width: calc(100% - 90px);    
 }
 button:hover{
     background: #7c7c7c9b;
