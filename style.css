@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background: #161616; */
+    background-image: url('https://source.unsplash.com/1600x900/?black');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 120%;
+}
+.card{
+    color: white;
+    align-content: center;
+    background: #000;
+    padding: 2em;
+    width: 100%;
+    border-radius: 30px;
+    max-width: 420px;
+    margin: 1em;
+    opacity: 90%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 3.2em;
+    width: 3.2em;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: .5em;
+    border-radius: 29px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+    width: calc(100% - 90px);
+    
+}
+button:hover{
+    background: #7c7c7c9b;
+    cursor: pointer;
+}
+h1.temp{
+    margin: 0;
+}
