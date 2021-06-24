@@ -1,6 +1,6 @@
 document.cookie = "SameSite=Lax"
 let weather = {
-    "apiKey": "7328379d5f98c20f0ff9103a82e7c873",
+    "apiKey": "enter_your_api_key",
     fetchWeather: function(city){
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q="
